@@ -11,11 +11,10 @@ class Playlist {
     this.title = title
     this.songs = []
   }
-  addSong() {
-    this.songs = ['purple-rain']
+  addSong(song) {
+    this.songs.push(song)
   }
 }
-
 
 
 // #2: Create an instance of the Playlist class and set it to a variable called `myPlaylist`
@@ -23,7 +22,7 @@ class Playlist {
 // Type your solution immediately below this line:
 
 var myPlaylist = new Playlist("prince");
-myPlaylist.addSong();
+myPlaylist.addSong("purple rain");
 
 
 
